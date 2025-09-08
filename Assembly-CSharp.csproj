@@ -61,6 +61,7 @@
     <Compile Include="Assets\Racing Starter Kit\RSK Assets\ScriptableObjects\AIWaypointSet.cs" />
     <Compile Include="Assets\Racing Starter Kit\RSK Assets\Scripts\Car\CarController.cs" />
     <Compile Include="Assets\Racing Starter Kit\RSK Assets\Scripts\GUI\LapSelectorGUI.cs" />
+    <Compile Include="Assets\OmatAssetit\Scripts\Pelaaja.cs" />
     <Compile Include="Assets\Racing Starter Kit\RSK Assets\ScriptableObjects\RaceManagerItem.cs" />
     <Compile Include="Assets\Racing Starter Kit\RSK Assets\Scripts\Car\CarUserControl.cs" />
     <Compile Include="Assets\Racing Starter Kit\RSK Assets\Scripts\Car\CarAIControl.cs" />
