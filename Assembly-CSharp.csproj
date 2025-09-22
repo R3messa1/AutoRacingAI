@@ -82,6 +82,7 @@
     <Compile Include="Assets\Racing Starter Kit\RSK Assets\Scripts\GUI\RacePositionGUI.cs" />
     <Compile Include="Assets\Racing Starter Kit\RSK Assets\Scripts\Mobile Input\MobileInputManager.cs" />
     <Compile Include="Assets\Racing Starter Kit\RSK Assets\Scripts\PlayerCarCameraController.cs" />
+    <Compile Include="Assets\OmatAssetit\Scripts\AIauto.cs" />
     <Compile Include="Assets\Racing Starter Kit\RSK Assets\Scripts\GUI\PauseRestartGUI.cs" />
     <Compile Include="Assets\Racing Starter Kit\RSK Assets\Scripts\AI\AICarAvoidanceSmartSteering.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
