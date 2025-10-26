@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Racing Starter Kit\RSK Assets\ScriptableObjects\RealTimeRacePositionsItem.cs" />
+    <Compile Include="Assets\OmatAssetit\Scripts\Tuomari.cs" />
     <Compile Include="Assets\Racing Starter Kit\RSK Assets\Scripts\RaceFinishCamera.cs" />
     <Compile Include="Assets\Racing Starter Kit\RSK Assets\Scripts\AI\AIWaypointTracker.cs" />
     <Compile Include="Assets\Racing Starter Kit\RSK Assets\ScriptableObjects\RuntimeItem.cs" />
@@ -96,6 +97,7 @@
     <Compile Include="Assets\Racing Starter Kit\RSK Assets\Scripts\RaceFinish.cs" />
     <Compile Include="Assets\Racing Starter Kit\RSK Assets\Scripts\AI\AICarAvoidanceBehaviour.cs" />
     <Compile Include="Assets\Racing Starter Kit\RSK Assets\Scripts\Mobile Input\MobileButtonHandler.cs" />
+    <Compile Include="Assets\OmatAssetit\Scripts\CarIdentify.cs" />
     <Compile Include="Assets\Racing Starter Kit\RSK Assets\ScriptableObjects\RuntimeSet.cs" />
     <Compile Include="Assets\Racing Starter Kit\RSK Assets\Scripts\SFXPlayer.cs" />
     <Compile Include="Assets\Racing Starter Kit\RSK Assets\Scripts\GUI\BotSelectorGUI.cs" />
