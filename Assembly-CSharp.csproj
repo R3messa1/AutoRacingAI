@@ -71,6 +71,7 @@
     <Compile Include="Assets\Racing Starter Kit\RSK Assets\Scripts\Managers\GameManager.cs" />
     <Compile Include="Assets\Racing Starter Kit\RSK Assets\Scripts\Car\BrakeLight.cs" />
     <Compile Include="Assets\Racing Starter Kit\RSK Assets\Scripts\Mobile Input\MobileControlRig.cs" />
+    <Compile Include="Assets\OmatAssetit\Scripts\PelaajanKierrostarkistus.cs" />
     <Compile Include="Assets\Racing Starter Kit\RSK Assets\Scripts\GUI\CarColorPickerGUI.cs" />
     <Compile Include="Assets\Racing Starter Kit\RSK Assets\Scripts\AI\AIWaypoints.cs" />
     <Compile Include="Assets\Racing Starter Kit\RSK Assets\Scripts\Checkpoint.cs" />
