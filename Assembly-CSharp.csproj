@@ -81,6 +81,7 @@
     <Compile Include="Assets\Racing Starter Kit\RSK Assets\Scripts\GUI\SelectorGUI.cs" />
     <Compile Include="Assets\Racing Starter Kit\RSK Assets\Scripts\GUI\PreRaceCountdownGUI.cs" />
     <Compile Include="Assets\Racing Starter Kit\RSK Assets\Scripts\GUI\MenuGUI.cs" />
+    <Compile Include="Assets\OmatAssetit\Scripts\CheckpointTarkistus.cs" />
     <Compile Include="Assets\Racing Starter Kit\RSK Assets\Scripts\GUI\RacePositionGUI.cs" />
     <Compile Include="Assets\Racing Starter Kit\RSK Assets\Scripts\Mobile Input\MobileInputManager.cs" />
     <Compile Include="Assets\Racing Starter Kit\RSK Assets\Scripts\PlayerCarCameraController.cs" />
