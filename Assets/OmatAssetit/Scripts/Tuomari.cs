@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class Tuomari : MonoBehaviour
 {
+    // Tämä varmistaa, että voittaja kirjoitetaan vain kerran
+    private bool winnerDeclared = false;
     private void OnTriggerEnter(Collider auto)
     {
         // Haetaan CarIndentify-komponentti osuneesta GameObjectista
@@ -23,6 +25,14 @@ public class Tuomari : MonoBehaviour
 
         // Luetaan näkyvä nimi ja ilmoitetaan voittaja konsoliin
         string winnerName = id.displayName;
-        Debug.Log($"WINNER: {winnerName}");
+
+        // Tarkistetaan onko voittaja jo ilmoitettu
+        if (!winnerDeclared)
+        {
+            // Jos ei, tulostetaan voittaja ja merkitään että voittaja
+            // on jo julistettu
+            Debug.Log($"WINNER: {winnerName}");
+            winnerDeclared = true;
+        }
     }
 }

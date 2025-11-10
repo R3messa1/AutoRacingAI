@@ -16,6 +16,11 @@ public class AIauto : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // Estetään liike, ellei peli ole Racing-vaiheessa
+        if (GameManager.Instance.Phase != RacePhase.Racing)
+        {
+            return; // AI-auto ei voi liikkua, jos peli ei ole käynnissä
+        }
         // haetaan waypoint-taulukosta se piste, jota kohti auto on menossa
         Transform target = waypoints[currentWaypointIndex];
 

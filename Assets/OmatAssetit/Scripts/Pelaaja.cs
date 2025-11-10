@@ -17,6 +17,12 @@ public class Pelaaja : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // Estetään liike, ellei peli ole Racing-vaiheessa
+        if (GameManager.Instance.Phase != RacePhase.Racing)
+        {
+            return; // Pelaaja ei voi liikkua, jos peli ei ole käynnissä
+        }
+
         // Luetaan pystysuuntainen liike
         float move = Input.GetAxis("Vertical") * speed * Time.deltaTime;
 
